@@ -1,6 +1,6 @@
 import React from "react";
-import Expenses from "./components/Expenses";
-function App() {
+import Expenses from "./components/Expenses/Expenses";
+const App = () => {
   const expenses = [
     {id:1,  date:new Date(2024,7,15)  ,title:"Book", location:"Delhi", price:"200"},
     {id:2,  date:new Date(2023,5,10)  ,title:"Insurance", location:"Ayodhya", price:"190"},
